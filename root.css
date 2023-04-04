@@ -1,0 +1,15 @@
+:root{
+    --title-text-color:  #3A325F;
+    --color-signature_icon: rgba(184, 180, 203, 1);
+    --input-text-color:#3A325F;
+    --placeholder-color:rgba(184, 180, 203, 1);
+    --input-border-color:#B8B4CB;
+    --button-background-color:#7034FA;
+    --button-color:#ffff;
+    --button-background-hover-color:#ffff;
+    --button-text-color:#7034FA;
+    --button-border-color:#7034FA;
+    --icon-hover-color:#0000;
+    --input-box-border-color:#7034FA;
+    --box-shadow-block-color:rgba(0,0,0,0.25);
+}

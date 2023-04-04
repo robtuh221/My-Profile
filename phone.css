@@ -1,0 +1,64 @@
+/*Для IPad 11*/
+@media screen and (max-width: 834px) {
+    .profile__container{
+        height: 1194px;
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container__input__box {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 25px 10px 0px 10px;
+            border: 3px solid var(--input-box-border-color);
+            border-radius: 10px;
+            padding: 25px 15px 10px 15px;
+    }
+    .container__header{
+        margin-top: 30px;
+    }
+}
+
+/*Для IPhone 11Pro*/
+@media screen and (max-width: 375px) {
+    .profile__container{
+        margin: 0;
+        height: 812px;
+        display: flex;
+        justify-content: flex-start;
+        box-shadow: none;
+    }
+    .container__header{
+        padding: 0px 5px 0px 5px;
+    }
+    .header__title{
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .content__icon{
+        max-width: 50px;
+        padding: 15px 20px 0px 0px;
+    }
+    .content__image{
+        background-image: url(image\iphoneprofile.svg);
+        padding-left: 130px;
+    }
+    .image__edit{
+        display: flex;
+        justify-content: center;
+    }
+    .input__box{
+        max-width: 325px;
+    }
+    .input__box__second__cloumn{
+        margin-left: 0;
+    }
+    .input__box__signature__chek{
+        margin-top: 0;
+    }
+    .container__button{
+        max-width: 325px;
+        margin: 30px;
+        padding: 18px 148px 18px 148px;
+    }
+}
